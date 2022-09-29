@@ -1,0 +1,14 @@
+    # TD SIMULATION NUMDE L'INTERPOLATION DE LAGRANGE 
+
+import numpy as np
+import mathplotlib.pyplot as plt 
+
+def represent(f,xmin,xmax,nbr):
+    #nbr>=0
+    x=np.linspace(xmin,xmax,nbr)
+    y=f(x)
+    plt.plot(x,y,"04")
+    plt.show()
+    
+    
+    
